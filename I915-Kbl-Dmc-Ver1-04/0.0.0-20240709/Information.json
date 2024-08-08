@@ -1,0 +1,23 @@
+{
+  "port": "Firmwares-Main",
+  "name": "I915-Kbl-Dmc-Ver1-04",
+  "version": "0.0.0-20240709",
+  "architectures": ["x86_64"],
+  "description": "I915 Kbl-Dmc-Ver1-04 linux firmware",
+  "website": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
