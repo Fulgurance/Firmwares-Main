@@ -1,9 +1,9 @@
 {
   "port": "Firmwares-Main",
-  "name": "I915-Kbl-Dmc-Ver1-04",
+  "name": "I915-Kbl-Dmc",
   "version": "0.0.0-20240709",
   "architectures": ["x86_64"],
-  "description": "I915 Kbl-Dmc-Ver1-04 linux firmware",
+  "description": "I915 Kbl-Dmc linux firmware",
   "website": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/",
   "installedFiles": [],
   "dependencies": [

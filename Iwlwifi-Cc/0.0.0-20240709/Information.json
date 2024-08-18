@@ -1,9 +1,9 @@
 {
   "port": "Firmwares-Main",
-  "name": "Intel-Ibt-20-1-3",
+  "name": "Iwlwifi-Cc",
   "version": "0.0.0-20240709",
   "architectures": ["x86_64"],
-  "description": "Intel Ibt-20-1-3 linux firmware",
+  "description": "Iwlwifi Cc linux firmware",
   "website": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/",
   "installedFiles": [],
   "dependencies": [
