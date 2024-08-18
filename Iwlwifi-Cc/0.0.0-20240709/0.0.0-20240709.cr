@@ -3,10 +3,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/lib/firmware")
-
-        copyFile(   "#{buildDirectoryPath}/iwlwifi-cc-a0-77.ucode",
-                    "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/lib/firmware/iwlwifi-cc-a0-77.ucode")
+        moveFile(   path:       "#{buildDirectoryPath}/lib",
+                    newPath:    "#{builtSoftwareDirectoryPath}/#{Ism.settings.rootPath}/lib")
     end
 
 end
