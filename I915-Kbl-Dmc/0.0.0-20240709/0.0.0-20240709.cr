@@ -7,4 +7,10 @@ class Target < ISM::Software
                     newPath:    "#{builtSoftwareDirectoryPath}/#{Ism.settings.rootPath}/lib")
     end
 
+    def install
+        super
+
+        runDepmodCommand
+    end
+
 end
