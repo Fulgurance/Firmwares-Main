@@ -1,0 +1,23 @@
+{
+  "port": "Firmwares-Main",
+  "name": "Intel-Microcode",
+  "version": "0.0.0-20240813",
+  "architectures": ["x86_64"],
+  "description": "The Intel Processor Microcode Update (MCU) Package",
+  "website": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
