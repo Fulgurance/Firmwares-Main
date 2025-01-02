@@ -4,7 +4,7 @@
   "version": "0.0.0-20240709",
   "architectures": ["x86_64"],
   "description": "Iwlwifi Cc linux firmware",
-  "website": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/",
+  "website": "https://gitlab.com/kernel-firmware/linux-firmware",
   "installedFiles": [],
   "dependencies": [
     {
