@@ -1,2 +1,2 @@
-class Target < ISM::PackagedSoftware
+class Target < ISM::PackagedFirmware
 end
