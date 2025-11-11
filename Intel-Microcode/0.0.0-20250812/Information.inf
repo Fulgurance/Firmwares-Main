@@ -1,0 +1,19 @@
+PORT
+    Firmwares-Main
+NAME
+    Intel-Microcode
+VERSION
+    0.0.0-20250812
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    The Intel Processor Microcode Update (MCU) Package
+WEBSITE
+    https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
